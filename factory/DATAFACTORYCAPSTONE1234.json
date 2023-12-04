@@ -1,0 +1,9 @@
+{
+	"name": "DATAFACTORYCAPSTONE1234",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "28722d82-093b-44b9-a6cb-1335a15a265b",
+		"tenantId": "0308a437-2c86-417a-bd95-a6f8f257a6a1"
+	}
+}
