@@ -1,9 +1,16 @@
 {
-	"name": "DelimitedText1",
+	"name": "DelimitedText2",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerGithub",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
 			"columnDelimiter": ",",
 			"rowDelimiter": "\n",
 			"escapeChar": "\\",
