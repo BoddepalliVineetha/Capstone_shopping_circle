@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DATAFACTORYCAPSTONE1234"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"HttpServerGithub_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlstoragevinee.dfs.core.windows.net/"
+		},
+		"HttpServerGithub_properties_typeProperties_url": {
+			"value": "https://github.com/BoddepalliVineetha/Capstone_shopping_circle.git"
+		},
+		"HttpServerGithub_properties_typeProperties_userName": {
+			"value": "BoddepalliVineetha"
+		}
+	}
+}
