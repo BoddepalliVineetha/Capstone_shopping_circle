@@ -21,7 +21,7 @@
 		},
 		"HttpServerGithub_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://github.com/BoddepalliVineetha/Capstone_shopping_circle.git"
+			"defaultValue": "https://github.com"
 		},
 		"HttpServerGithub_properties_typeProperties_userName": {
 			"type": "string",
@@ -83,12 +83,13 @@
 				"typeProperties": {
 					"location": {
 						"type": "HttpServerLocation",
-						"relativeUrl": "https://github.com/BoddepalliVineetha/Capstone_shopping_circle/blob/main/"
+						"relativeUrl": "/BoddepalliVineetha/Capstone_shopping_circle/blob/main/Sample_sales.csv"
 					},
 					"columnDelimiter": ",",
+					"rowDelimiter": "\n",
 					"escapeChar": "\\",
 					"firstRowAsHeader": true,
-					"quoteChar": "\""
+					"quoteChar": null
 				},
 				"schema": []
 			},
@@ -201,7 +202,7 @@
 						},
 						"inputs": [
 							{
-								"referenceName": "new",
+								"referenceName": "DelimitedText1",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
@@ -221,7 +222,7 @@
 				"annotations": []
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/datasets/new')]",
+				"[concat(variables('factoryId'), '/datasets/DelimitedText1')]",
 				"[concat(variables('factoryId'), '/datasets/adls')]"
 			]
 		}
