@@ -10,12 +10,13 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "https://github.com/BoddepalliVineetha/Capstone_shopping_circle/blob/main/"
+				"relativeUrl": "/BoddepalliVineetha/Capstone_shopping_circle/blob/main/Sample_sales.csv"
 			},
 			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
-			"quoteChar": "\""
+			"quoteChar": null
 		},
 		"schema": []
 	}
