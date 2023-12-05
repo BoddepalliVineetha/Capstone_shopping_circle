@@ -1,0 +1,22 @@
+{
+	"name": "new",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerGithub",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://github.com/BoddepalliVineetha/Capstone_shopping_circle/blob/main/Sample_sales.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
