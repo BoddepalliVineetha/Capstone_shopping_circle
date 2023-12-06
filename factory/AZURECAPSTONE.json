@@ -1,0 +1,9 @@
+{
+	"name": "AZURECAPSTONE",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "43675191-bcb1-4f38-88d6-e1531be39812",
+		"tenantId": "0308a437-2c86-417a-bd95-a6f8f257a6a1"
+	}
+}
