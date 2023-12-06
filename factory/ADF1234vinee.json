@@ -1,0 +1,9 @@
+{
+	"name": "ADF1234vinee",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d2f8856d-3b82-47ce-8a4f-5df27b92606f",
+		"tenantId": "0308a437-2c86-417a-bd95-a6f8f257a6a1"
+	}
+}
