@@ -117,7 +117,7 @@
 				]
 			},
 			{
-				"name": "Notebook1",
+				"name": "Shopping_Circle",
 				"type": "DatabricksNotebook",
 				"dependsOn": [
 					{
@@ -154,7 +154,7 @@
 				"type": "WebActivity",
 				"dependsOn": [
 					{
-						"activity": "Notebook1",
+						"activity": "Shopping_Circle",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -185,7 +185,7 @@
 				"type": "WebActivity",
 				"dependsOn": [
 					{
-						"activity": "Notebook1",
+						"activity": "Shopping_Circle",
 						"dependencyConditions": [
 							"Failed"
 						]
