@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AZURECAPSTONE"
+		},
+		"AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks_accessToken": {
+			"value": ""
+		},
+		"HttpServer_Sales_password": {
+			"value": ""
+		},
+		"HttpServer_inventory_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://adlsstoragevinee.dfs.core.windows.net/"
+		},
+		"AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1207-051223-ndowrbh2"
+		},
+		"HttpServer_Sales_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/BoddepalliVineetha/Capstone_shopping_circle/main/Sample_sales.csv"
+		},
+		"HttpServer_Sales_properties_typeProperties_userName": {
+			"value": "BoddepalliVineetha"
+		},
+		"HttpServer_inventory_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/BoddepalliVineetha/Capstone_shopping_circle/main/sample_inventory.csv"
+		},
+		"HttpServer_inventory_properties_typeProperties_userName": {
+			"value": "BoddepalliVineetha"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
