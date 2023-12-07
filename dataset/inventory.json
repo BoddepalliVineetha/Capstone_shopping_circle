@@ -1,0 +1,22 @@
+{
+	"name": "inventory",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer_inventory",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://raw.githubusercontent.com/BoddepalliVineetha/Capstone_shopping_circle/main/sample_inventory.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
